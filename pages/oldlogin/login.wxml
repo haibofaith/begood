@@ -1,0 +1,17 @@
+<!--pages/login/login.wxml-->
+<view class='login'>
+  <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo"      bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+  <view wx:else class='info' style="flex-direction:row;">
+  <image class='userinfo-avatar' src="{{userInfo.avatarUrl}}" mode="cover">
+  </image>
+  </view>
+  <view class="flex-item">
+    <view>用户名：</view>
+    <view><input bindinput='nameInput' placeholder='请输入'></input></view>
+  </view>
+  <view class="flex-item">
+    <text>密码：</text>
+    <view><input bindinput='pwdInput' placeholder='请输入'></input></view>
+  </view>
+  <button class="btn" bindtap='login' type='primary'>登录</button>
+</view>

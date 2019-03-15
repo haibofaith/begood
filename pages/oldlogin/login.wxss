@@ -1,0 +1,24 @@
+/* pages/login/login.wxss */
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-item{
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 90%;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.btn{
+  margin-top: 40px;
+  width: 90%
+}

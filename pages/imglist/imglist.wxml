@@ -1,0 +1,9 @@
+<!-- <text id='func-title'>文件夹列表</text> -->
+<view class='file-area'>
+  <block wx:for="{{array}}" wx:for-item="filetitem">
+    <navigator class='item-parent' url="../imgshow/imgshow?dateStr={{filetitem}}">
+      <view class="iconfont icon-wenjianjia"></view>
+      <view class='file-tv'>{{filetitem}}</view>
+    </navigator>
+  </block>
+</view>

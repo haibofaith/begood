@@ -1,0 +1,18 @@
+<!--pages/friends/friends.wxml-->
+<view class="weui-cell">
+  <input id='input' class="weui-input" maxlength="10" bindinput="bindKeyInput" placeholder="请输入好友昵称" value='{{inputvalue}}'/>
+  <button class='search-bt' bindtap='searchUser'>
+  <view id='certain-img' class='iconfont icon-sousuo::after'></view>
+  </button>
+</view>
+<view class='detailheda_pic'>
+  <block wx:for="{{userlist}}" wx:for-item="user">
+    <button class='user-item' bindtap='selectUser' data-nickname='{{user.nickName}}'>
+    <image id='user-header' mode='aspectFill' src='{{user.avatarUrl}}'></image>
+    <view class='user-name'>
+      <text >{{user.nickName}}</text>
+    </view>
+    </button>
+  </block>
+</view>
+<button class='bt' bindtap="certainShare">确定分享</button>

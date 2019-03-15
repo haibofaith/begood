@@ -1,0 +1,144 @@
+#home-header{
+  width: 100%;
+  height: 80px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+#weixin-user{
+  position: absolute;
+  left: 12px;
+  display: flex;
+  flex-direction: row;
+  top: 20px;
+  align-items: center
+}
+#weixin-img {
+  overflow: hidden;
+  width: 40px;
+  background: white;
+  height: 40px;
+  border-radius: 50%;
+}
+#weixin-nick{
+  padding-left: 12px;
+  color: #BBBBBB;
+}
+.bt{
+  margin: 3px;
+  display: inline-block;
+  width: 23%;
+  text-align:center;
+  font-size: 10px;
+  font-family: Monospace;
+  box-shadow: darkgrey 1px 1px 2px 1px ;
+}
+.btn-area{
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.msg-area{
+  border-radius: 3px;
+  border-width: 0px;
+  border-color:darkgrey;
+  border-style: solid;
+  height: 45px;
+  margin-left: 9px;
+  margin-right: 9px;
+  margin-top: 7px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: darkgrey 1px 1px 2px 1px ;
+}
+.msg{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-v{
+  padding-left: 20px;
+}
+.mid-v{
+  padding-left: 10px;
+  width: 100%;
+  font-size: 14px;
+  justify-content:flex-start;
+}
+.right-v{
+  padding-right: 20px;
+}
+#func-title{
+  padding: 12px;
+  font-weight:bold;
+  font-size: 16px;  
+  color: #353535;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1075360 */
+  src: url('//at.alicdn.com/t/font_1075360_pfhcdi1f3.eot');
+  src: url('//at.alicdn.com/t/font_1075360_pfhcdi1f3.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1075360_pfhcdi1f3.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1075360_pfhcdi1f3.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1075360_pfhcdi1f3.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1075360_pfhcdi1f3.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 18px;
+  color: #09BB07;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tianjiahaoyou:before {
+  content: "\e7dc";
+}
+
+.icon-yuncloud259:before {
+  content: "\e60e";
+}
+
+.icon-guanbi:before {
+  content: "\e606";
+}
+
+.icon-toupiao-m:before {
+  content: "\e605";
+}
+
+.icon-left-image:before {
+  content: "\e62b";
+}
+
+.icon-yun:before {
+  content: "\e62c";
+}
+
+.icon-navicon-tpjl:before {
+  content: "\e66f";
+}
+
+.icon-shuji:before {
+  content: "\e61b";
+}
+
+.icon-ziyuan:before {
+  content: "\e61e";
+}
+
+.icon-tiaochawenjuan-xianxing:before {
+  content: "\e7d8";
+}
+
+.icon-xiaoxitixing:before {
+  content: "\e654";
+}
+
+
+
+

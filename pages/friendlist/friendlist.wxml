@@ -1,0 +1,15 @@
+<view id='file-parent'>
+  <block class='father-block' wx:for="{{parentArray.friendPicParents}}" wx:for-item="listitem">
+    <view>
+      <text class='nick-area'>{{listitem.nickName}}</text>
+    </view>
+    <view id='file-area'>
+      <block wx:for="{{listitem.picParentPaths}}">
+        <navigator class='item-parent' url="../friendImgshow/friendImg?dateStr={{item}}&openid={{listitem.openid}}">
+          <view class="iconfont icon-wenjianjia"></view>
+          <view class='file-tv'>{{item}}</view>
+        </navigator>
+      </block>
+    </view>
+  </block>
+</view>

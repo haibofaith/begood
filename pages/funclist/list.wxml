@@ -1,0 +1,40 @@
+<!-- This is our View -->
+<image id='home-header' mode='aspectFill' src='{{home_header}}'></image>
+<view id='weixin-user'>
+  <view id='weixin-img'>
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view id='weixin-nick'>
+    <open-data type="userNickName"></open-data>
+  </view>
+</view>
+<view class="btn-area">
+
+  <button class='bt' bindtap="navigateToUpload">
+    <view class='iconfont icon-ziyuan'></view>上传图片</button>
+  <button class='bt' bindtap="navigateToImg">
+    <view class='iconfont icon-yuncloud259'></view>显示图片</button>
+  <button class='bt' bindtap="navigateToShare">
+    <view class='iconfont icon-tianjiahaoyou'></view>添加好友</button>
+  <button class='bt' bindtap="navigateToFriends">
+    <view class='iconfont icon-left-image'></view>好友图片</button>
+</view>
+<view class="btn-area" >
+  <button class='bt' disabled='false' bindtap="navigateToAddQuestion">
+    <view class='iconfont icon-toupiao-m:before'></view>新增问卷</button>
+  <button class='bt' bindtap="navigateToOther" disabled='false'>
+    <view class='iconfont icon-tiaochawenjuan-xianxing'></view>调查问卷</button>
+  <button class='bt' bindtap="navigateToOther" disabled='false'>
+    <view class='iconfont icon-navicon-tpjl'></view>统计看板</button>
+  <button class='bt' bindtap="navigateToReadBooks">
+    <view class='iconfont icon-shuji:before'></view>看电子书</button>
+</view>
+<button class='msg-area' disabled='false' hidden='true'>
+  <view class='msg left-v'>
+    <view class='iconfont icon-xiaoxitixing'></view>
+  </view>
+  <view class='msg mid-v'>您有一条消息提醒</view>
+  <view class='msg right-v'>
+    <view class='iconfont icon-guanbi'></view>
+  </view>
+</button>

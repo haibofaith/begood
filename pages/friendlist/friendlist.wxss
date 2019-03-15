@@ -1,0 +1,62 @@
+
+#file-area{
+  display: inline;
+}
+#func-title{
+  padding: 12px;
+  font-weight:bold;
+  font-size: 16px;  
+}
+.item-parent{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: inline-block;
+  width: 33%;
+  margin-left: 1px;
+}
+.file-tv{
+  padding-top: 3px;
+  width: 100%;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 1075360 */
+  src: url('//at.alicdn.com/t/font_1075360_80izq83csb4.eot');
+  src: url('//at.alicdn.com/t/font_1075360_80izq83csb4.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1075360_80izq83csb4.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1075360_80izq83csb4.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1075360_80izq83csb4.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1075360_80izq83csb4.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 28px;
+  color: #09BB07;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-wenjianjia:before {
+  content: "\e667";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nick-area{
+  padding: 12px;
+  font-weight:inherit;
+  font-size: 14px;  
+}
+.file-parent{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.father-block{
+  margin-top: 5px;
+}
+

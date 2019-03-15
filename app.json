@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/newlogin/newlogin",
+    "pages/oldlogin/login",
+    "pages/uploadimg/home",
+    "pages/funclist/list",
+    "pages/imglist/imglist",
+    "pages/user/user",
+    "pages/logs/logs",
+    "pages/imgshow/imgshow",
+    "pages/friends/friends",
+    "pages/friendlist/friendlist",
+    "pages/friendImgshow/friendImg",
+    "pages/other/other",
+    "pages/addQuestion/addQuestion",
+    "pages/book/book"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

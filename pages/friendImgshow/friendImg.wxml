@@ -1,0 +1,6 @@
+<!-- 图片 -->
+<view class='detailheda_pic'>
+  <block wx:for="{{imglist}}" wx:for-item="img">
+    <image class='detailheda_pic_img' src='{{img.smallImgUrl}}' data-src="{{img.imgUrl}}" bindtap="previewImage" mode='aspectFill'></image>
+  </block>
+</view>

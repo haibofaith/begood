@@ -1,0 +1,6 @@
+<!-- 图片 -->
+<!-- <view class='detailheda_pic'>
+  <block wx:for="{{questionlist}}" wx:for-item="question">
+    <input></input>
+  </block>
+</view> -->
